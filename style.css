@@ -1,0 +1,133 @@
+body {
+    /* Define o tamanho da fonte padrão do corpo da página como 26px */
+    font-size: 26px;
+  
+    /* Define a cor de fundo da página como #f1f1f1, um tom claro de cinza */
+    background: #ffe0b2;
+  
+    /* Define a família de fontes usada no corpo da página, com Roboto como preferência e sans-serif como alternativa */
+        font-family: "Cousine", monospace;
+        font-weight: 400;
+        font-style: normal;;
+  }
+  
+  .main {
+
+    position: relative; /* Define um contexto para posicionamento absoluto */
+
+    /* Define a largura máxima da div principal como 1500px */
+    max-width: 1500px;
+  
+    /* Centraliza a div com margem automática nas laterais */
+    margin: 0 auto;
+  
+    /* Adiciona um espaçamento interno (padding) de 25px ao redor do conteúdo da div */
+    padding: 25px;
+  
+    /* Aplica um layout flexbox, que organiza os itens de forma flexível */
+    display: flex;
+  
+    /* Centraliza o texto dentro da div */
+    text-align: center;
+  
+    /* Alinha os itens dentro da div no centro horizontalmente */
+    justify-content: center;
+  }
+  
+  #img {
+    /* Aplica uma borda arredondada de 5% ao redor da imagem */
+    border-radius: 48%;
+
+    margin-bottom: 20px; /* Ajusta a margem superior */
+    margin-right: 100px; /* Ajusta a margem à esquerda */
+  
+    /* Define a largura da imagem como 500px */
+    width: 220px;
+    height: 220px;
+  }
+  
+  #text {
+    /* Alinha verticalmente o conteúdo ao centro dentro do flex container */
+    align-self: center;
+  
+    /* Adiciona 50px de espaçamento interno (padding) ao redor do texto */
+    padding: 30px;
+  }
+  
+  h2{
+    
+  }
+
+  h4 {
+    /* Define a cor do texto de nível 4 (h4) como um tom de vermelho (rgb(214, 34, 34)) */
+    color: rgb(214, 34, 34);
+  
+    /* Define a opacidade do texto como 0.8, tornando-o um pouco transparente */
+    opacity: 0.8;
+  }
+  
+  .container {
+    display: flex; /* Cria um layout flexível */
+    justify-content: space-around; /* Distribui espaço entre as descrições */
+    align-items: flex-start; /* Alinha as descrições no topo */
+    margin-top: 40px; /* Adiciona margem superior ao contêiner */
+  }
+  
+  .description1, .description2, .description3 {
+    font-size: 17px;
+    color: #08090b;
+    box-shadow: 2px 2px 4px rgba(68, 57, 6, 0.804);
+    max-width: 200px; /* Ajuste a largura máxima conforme necessário */
+    max-height: 130px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin: 0 10px; /* Adiciona margem lateral */
+  }
+  
+  .about-me {
+    
+    font-size: 17px; /* Tamanho da fonte */
+    color: #08090b; /* Cor do texto */
+    max-width: 850px; /* Largura máxima */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px; /* Padding interno */
+    background-color: #f5f5f5; /* Cor de fundo */
+    margin-top: 50px; /* Margem superior/inferior e centralização */
+    margin-left: -470px;
+    box-shadow: 2px 2px 4px rgba(68, 57, 6, 0.804); /* Sombra */
+  }
+  
+
+  footer {
+    /* Centraliza o texto no rodapé */
+    text-align: center;
+  
+    /* Define o tamanho da fonte no rodapé como 16px */
+    font-size: 16px;
+  
+    /* Define o peso da fonte como 200, o que deixa o texto mais fino */
+    font-weight: 200;
+
+    margin-top: 120px;
+  
+    /* Adiciona 50px de padding ao redor do rodapé */
+    padding: 50px;
+  }
+  
+  #lucas {
+    /* Define o peso da fonte para o link com id 'lucas' como bold (negrito) */
+    font-weight: bold;
+  }
+  
+  #lucas:hover {
+    /* Altera a cor do link para 'crimson' (vermelho forte) quando o usuário passa o mouse sobre o link */
+    color: crimson;
+  
+    /* Reduz a opacidade para 0.8 durante o hover */
+    opacity: 0.8;
+  
+    /* Define uma transição suave de 0,5 segundos para a mudança de cor e opacidade */
+    transition: 0.5s;
+  }
+  
